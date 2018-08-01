@@ -5,10 +5,6 @@ Sample Input: 1. has12({1, 3, 2})->true ,
 Sample Output: 3. has12({3, 1, 4, 5, 2}) -> true
 */
 
-
-
-
-
 public class Has12
 {
 	public static void main(String [] args)
@@ -33,6 +29,7 @@ public class Has12
 				break;
 			}
 		}
+		
 		return false;
 	}
 }
